@@ -1,1 +1,84 @@
-
+Please enter your name: Sashi Nagdive
+Hello Sashi Nagdive ! Welcome to our Shopping Store. Buy Products at Discounted & Cheapest Rate !!
+********************************************************************************************
+--------------------WELCOME Sashi Nagdive  TO THE TOY SHOP -------------------------------------
+*******************************************************************************************
+Please Choose from the Below Option : 
+1. Item Purchase : 
+2. Exit : 
+Enter Your Choice Here : 1
+OK .. Wait For The Next Step ... 
+Loading items ... Please Wait !!!
+Items Available at Our Stores are {'1000001': {'Name': 'Baby Cream', 'Price': 140, 'Quantity': 30, 'Company': 'Himalaya', 'Color': 'White'}, '1000002': {'Name': 'Brightning Day Cream', 'Price': 150, 'Quantity': 10, 'Company': 'Kaya', 'Color': 'Light Pink'}, '1000003': {'Name': 'Eyelyner', 'Price': 500, 'Quantity': 5, 'Company': 'Shehnaz Husan', 'Color': 'Black'}, '1000004': {'Name': 'Lipstic', 'Price': 750, 'Quantity': 23, 'Company': 'Lakme', 'Color': 'Bold Red'}, '1000005': {'Name': 'White Glow', 'Price': 110, 'Quantity': 50, 'Company': 'Lotus', 'Color': 'Navy Blue'}, '1000006': {'Name': 'Anti Wrinkle', 'Price': 1189, 'Quantity': 1, 'Company': 'Ptanjali', 'Color': 'Gold'}, '1000007': {'Name': 'Foundation', 'Price': 1100, 'Quantity': 5, 'Company': 'VLCC', 'Color': 'Light Borwn'}, '1000008': {'Name': 'Nailpaint', 'Price': 11, 'Quantity': 24, 'Company': 'Colorssence', 'Color': 'White'}, '1000009': {'Name': 'Skin Care', 'Price': 220, 'Quantity': 100, 'Company': 'Biotique', 'Color': 'Black'}, '1000010': {'Name': 'Muskara', 'Price': 1110, 'Quantity': 10, 'Company': 'Milani', 'Color': 'Dark Black'}, '1000011': {'Name': 'Lipstic', 'Price': 750, 'Quantity': 50, 'Company': 'Blue heaven', 'Color': 'Pink'}, '1000012': {'Name': 'Makeup remover', 'Price': 350, 'Quantity': 30, 'Company': 'Viviana', 'Color': 'Light pink'}, '1000013': {'Name': 'Swarna Kanti', 'Price': 590, 'Quantity': 40, 'Company': 'Patanjali', 'Color': 'Fair White'}, '1000014': {'Name': 'Skincare', 'Price': 10, 'Quantity': 10, 'Company': 'Forest Essentials', 'Color': 'Gold'}, '1000015': {'Name': 'Compact Powder', 'Price': 590, 'Quantity': 35, 'Company': 'Coloressence', 'Color': 'Pearl White'}, '1000016': {'Name': ' Gold Facial kit', 'Price': 2000, 'Quantity': 1, 'Company': 'VLCC', 'Color': 'Pearl White'}, '1000017': {'Name': 'Lipstik', 'Price': 1111, 'Quantity': 100, 'Company': 'ELLE 18', 'Color': 'Pop silk'}, '1000018': {'Name': 'Kajal Stick', 'Price': 850, 'Quantity': 45, 'Company': 'VIVIANA', 'Color': 'Dark Red'}, '1000019': {'Name': 'Intensive Moisturizing', 'Price': 20, 'Quantity': 20, 'Company': 'PAC', 'Color': 'Milky'}, '1000020': {'Name': 'Radiance Cream', 'Price': 450, 'Quantity': 300, 'Company': 'Lakme', 'Color': 'Skin color'}, '1000021': {'Name': 'Skin perfect', 'Price': 2500, 'Quantity': 370, 'Company': 'olreal', 'Color': 'POP silky'}, '1000022': {'Name': 'Shanglow Plus', 'Price': 710, 'Quantity': 10, 'Company': 'Maybellinge', 'Color': 'Skin color'}, '1000023': {'Name': 'Whitamin C face cream', 'Price': 599, 'Quantity': 15, 'Company': 'Mamaearth', 'Color': 'Light Green'}, '1000024': {'Name': 'Diamond cellular', 'Price': 1020, 'Quantity': 70, 'Company': 'Oriflame', 'Color': 'Bolg Gold'}, '1000025': {'Name': 'Sundarya Rdiance', 'Price': 110, 'Quantity': 500, 'Company': 'Avon', 'Color': 'Blue'}, '1000026': {'Name': 'Blue light defence', 'Price': 590, 'Quantity': 300, 'Company': 'Colorbar', 'Color': 'Light DEfence'}, '1000027': {'Name': 'Hydra White', 'Price': 1300, 'Quantity': 450, 'Company': 'Revlon', 'Color': 'Silk'}, '1000028': {'Name': 'Sebamed', 'Price': 5550, 'Quantity': 450, 'Company': 'NYX', 'Color': 'Black'}, '1000029': {'Name': 'Wow', 'Price': 100, 'Quantity': 7, 'Company': 'Nykaa', 'Color': 'Facial'}, '1000030': {'Name': 'Glutathione', 'Price': 1100, 'Quantity': 30, 'Company': 'Wet ', 'Color': 'Shiny gold'}, '10000031': {'name': 'Old Wax', 'pr': 10001, 'qn': 10, 'com': 'Zara', 'col': 'Light green'}, '1000032': {'name': 'Natura', 'pr': 1600, 'qn': 10, 'com': 'Lava', 'col': 'Sun color'}, '1000033': {'name': 'Mariya', 'pr': 2000, 'qn': 20, 'com': 'Kaya', 'col': 'Silk'}, '1000034': {'name': 'Vaseline', 'pr': 200, 'qn': 40, 'com': 'Ponds', 'col': 'White'}, '1000035': {'name': 'Old Spice', 'pr': 3000, 'qn': 1, 'com': 'Colfax', 'col': 'Green'}, '1000036': {'name': 'Safedi', 'pr': 3400, 'qn': 100, 'com': 'Patanjali', 'col': 'Black'}, '1000037': {'name': 'Saundarya', 'pr': 380, 'qn': 27, 'com': 'Maya', 'col': 'Solo White'}, '1000038': {'name': 'Facial Kit', 'pr': 7500, 'qn': 54, 'com': 'Natura', 'col': 'Soily'}, '1000039': {'name': 'Goree', 'pr': 590, 'qn': 10, 'com': 'Goree', 'col': 'Yellow'}, '1000040': {'name': 'Jalousy', 'pr': 500, 'qn': 10, 'com': 'Maurya', 'col': 'Blue'}} 
+========================================================================================
+Enter one item that you wish to Purchase: 1000001
+Enter the quantity of Product: 10
+Product:  Baby Cream
+Price:  140
+Comoany Himalaya
+Color: White
+-----------------------------------------------------------------------------------------
+Billing Amount:  1400
+Do You Wish To enter another item y/n : y
+========================================================================================
+Enter one item that you wish to Purchase: 1000005
+Enter the quantity of Product: 40
+Product:  White Glow
+Price:  110
+Comoany Lotus
+Color: Navy Blue
+-----------------------------------------------------------------------------------------
+Billing Amount:  4400
+Do You Wish To enter another item y/n : y
+========================================================================================
+Enter one item that you wish to Purchase: 1000010
+Enter the quantity of Product: 25
+Product:  Muskara
+Price:  1110
+Comoany Milani
+Color: Dark Black
+-----------------------------------------------------------------------------------------
+Billing Amount:  27750
+Do You Wish To enter another item y/n : y
+========================================================================================
+Enter one item that you wish to Purchase: 1000015
+Enter the quantity of Product: 10
+Product:  Compact Powder
+Price:  590
+Comoany Coloressence
+Color: Pearl White
+-----------------------------------------------------------------------------------------
+Billing Amount:  5900
+Do You Wish To enter another item y/n : y
+========================================================================================
+Enter one item that you wish to Purchase: 1000020
+Enter the quantity of Product: 100
+Product:  Radiance Cream
+Price:  450
+Comoany Lakme
+Color: Skin color
+-----------------------------------------------------------------------------------------
+Billing Amount:  45000
+Do You Wish To enter another item y/n : n
+******************************************************************************************
+                                                                                           
+                          Love Cosmetics            
+                                                                                        
+******************************************************************************************
+Address: Block no.2,Shraddha Mangalam Apartment,
+2nd Floaar, Near Ganesh Peth Police Station
+Nagpur - 440012
+_____________________________________________________________________________________________
+                                                                                         
+Customer Name : Sashi Nagdive                         Time & Date of Shopping : Mon Sep  6 04:57:31 2021
+______________________________________________________________________________________________
+                                                                                          
+                Bill Amount is 84450 for the Toys you have purchased.  
+                                                                                         
+            Discount 10.0% discount and Your Payable Amount is: 76005.0
+                                                                                           
+^^^^^^^^^^^^^^^^^^^^^ Pay your Bill on Cash Counter ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                                                            
+                  THANK YOU FOR SHOPPING WITH US             
+                      Visit Again                                      
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
