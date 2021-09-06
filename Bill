@@ -1,0 +1,110 @@
+import json
+import time
+import datetime
+
+a_name=input("Please enter your name: ")
+print(f"Hello {a_name} ! Welcome to our Shopping Store. Buy Products at Discounted & Cheapest Rate !!")
+
+
+print("********************************************************************************************")
+
+print(f"--------------------WELCOME {a_name}  TO THE TOY SHOP -------------------------------------")
+
+print("*******************************************************************************************")
+
+
+
+    
+def exit():
+    pass
+
+def itemPurchase():
+    with open ("record.json","r") as fd:
+        r = fd.read()
+        records = json.loads(r)
+    print("Loading items ... Please Wait !!!")
+    time.sleep(3)
+    print(f"Items Available at Our Stores are {records} ")
+    bill = 0
+    i = 0
+    num_items = 100
+    ls_items = []
+    while(num_items > 0):
+        print("========================================================================================")
+        item = input("Enter one item that you wish to Purchase: ")
+        prod_id= item.capitalize()
+        quan = int(input("Enter the quantity of Product: "))
+        print("Product: ", records[prod_id]['Name'])
+        print("Price: ", records[prod_id]['Price'])
+        print("Comoany" , records[prod_id]['Company'])
+        print("Color:" , records[prod_id]['Color'])
+        print("-----------------------------------------------------------------------------------------")
+        print("Billing Amount: ", records[prod_id]['Price'] * quan)
+        if(prod_id in records):
+            bill = bill + records[prod_id]['Price'] * quan
+            ls_items.append(prod_id)
+            num_items += 1
+            i += 1
+            records[prod_id]["Quantity"] = records[prod_id]["Quantity"] - quan
+        else:
+            print("________________________________________________________________________________________")
+            print("We Dont Have This Item as of Now. ")
+            print("_________________________________________________________________________________________")
+        wish = input("Do You Wish To enter another item y/n : ")
+        if(wish == "y"):
+            continue
+        else:
+            break
+
+
+    # Discount
+    if (bill <= 5000):
+        disc = 5.0
+        discount = (disc*bill)/100
+        total=float(bill-discount)
+    elif (bill >= 5000):
+        disc = 10.0
+        discount = (disc*bill)/100
+        total=float(bill-discount)
+    
+    # Bill
+    print("******************************************************************************************") 
+    print("                                                                                           ") 
+    print("                        "+  "  Love Cosmetics "                            + "           ") 
+    
+    print("                                                                                        ")
+    print("******************************************************************************************")
+    print("Address: Block no.2,Shraddha Mangalam Apartment,\n2nd Floaar, Near Ganesh Peth Police Station\nNagpur - 440012")
+    print("_____________________________________________________________________________________________") 
+    print('                                                                                         ')
+    print(f"Customer Name : {a_name}                         Time & Date of Shopping : {time.ctime()}")
+    print("______________________________________________________________________________________________")
+    time.sleep(2)
+    print("                                                                                          ")
+    print(f"                Bill Amount is {bill} for the Toys you have purchased.  ")
+    print("                                                                                         ")
+    print(f"            Discount {disc}% discount and Your Payable Amount is: {total}")
+    print('                                                                                           ')
+    print("^^^^^^^^^^^^^^^^^^^^^ Pay your Bill on Cash Counter ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+    print( "                                                                                            ")
+    
+    
+
+print("Please Choose from the Below Option : ")
+
+print("1. Item Purchase : ")
+print("2. Exit : ")
+
+choice = int(input("Enter Your Choice Here : "))
+print("OK .. Wait For The Next Step ... ")
+time.sleep(3)
+
+if (choice == 1):    
+    itemPurchase()
+
+elif (choice == 2):
+    exit()
+    print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+print("                  " + "THANK YOU FOR SHOPPING WITH US" +          "             "          )
+print("                      "  +  "Visit Again " +         "                                     ")
+print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
