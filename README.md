@@ -3,5 +3,5 @@
 2.Add new Inventory
 3.Purchase
 4.Billing
-5.Update Inventory
+5.Update Inventory after puchase
 6.sale.json
